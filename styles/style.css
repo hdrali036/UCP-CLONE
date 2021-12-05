@@ -1,0 +1,249 @@
+*{
+    font-family: Montserrat;
+}
+header{
+    background-image: url("../images/front img.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 35.6rem;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(4, 16, 53);
+    background-size: cover;
+    width: 100%;
+    position: fixed;
+    background-repeat: no-repeat;
+    height: 5rem;
+    
+    
+}
+
+.logo{
+    width: 17em;
+    height:4em;
+    padding-left: 2rem;
+}
+.navbar {
+    color: white;
+    font-size: 20px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    width: 100%;
+}
+
+.navbar li {
+    display: inline-block;
+    padding-top: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.date-sheet{
+color:white;
+font-size: 1.3rem;
+position: -webkit-sticky;
+position: fixed;
+bottom: 15rem;
+right: 1rem;
+border-style: solid;
+border-color: rgb(4, 16, 53);
+border-radius: 0.3rem;
+background-color: rgb(4, 16, 53);
+text-decoration: none;
+padding:0rem 0.3rem 0rem 0.3rem;
+font-weight: bold;
+margin-right: -0.4rem;
+  
+}
+
+.leave-a-message{
+color:white;
+font-size: 1rem;
+position: -webkit-sticky;
+position: fixed;
+bottom: 0rem;
+right: 1rem;
+border-style: solid;
+border-color: rgb(4, 16, 53);
+border-radius: 0.2rem;
+background-color: rgb(4, 16, 53);
+text-decoration: none;
+padding:0.5rem 6rem 0.5rem 1rem;
+
+}
+
+
+.second-page{
+    background-color:rgb(230, 230, 230);
+    padding-top: 0.5rem;
+    padding-left: 4rem;
+
+}
+.heading{
+    color:rgb(4, 16, 53);
+    font-weight:900;
+    font-size: 2.5rem;
+
+}
+
+.ideas-conclave{
+    width: 36rem;
+    height: 20rem;
+
+    
+    
+}
+.pictures{
+    display: flex;
+    padding-right: 5rem;
+}
+.right-side{
+    padding-left: 1rem;
+}
+.image1{
+    width:15rem;
+    height:12rem;
+    padding-bottom:1rem;
+}
+.image2{
+    width:15rem;
+    height:12rem;
+}
+.conclave-text{
+    background-color: rgb(4, 16, 53);
+    height: 4rem;
+    padding-top: 1rem;
+    
+}
+.conclave-text p{
+    color:white;
+    font-weight: 900;
+    font-size:1.5rem;
+    padding-left: 1rem;
+    
+}
+.right-text{
+    display: flex;
+    
+}
+.image1-text{
+    background-color: rgb(4, 16, 53);
+    color:white;
+    font-weight: 900;
+    font-size:1.5rem;
+    height: 12rem;
+}
+
+.news-button{
+    padding:1rem 2rem 1rem 2rem;
+    border-radius: 0.2rem;
+    border-color: rgb(4, 16, 53);
+    background-color: rgb(4, 16, 53);
+    color:white;
+    font-size: 1.2rem;
+    text-decoration: none;
+    
+    
+
+}
+.more-ucp-news{
+    text-align: center;
+    padding-bottom: 5rem;
+    padding-top:3rem;
+}
+
+.input-course{
+    display: flex;
+    justify-content: space-between;
+}
+.third-page{
+    padding-left: 4rem;
+    padding-right: 5rem;
+    padding-bottom: 2rem;
+}
+.searchbar{
+    background-color: rgb(240,240,240);
+    border-color: rgb(240,240,240);
+    border-radius: 2px;
+    padding:1rem 21rem 1rem 2rem;
+}
+.checkboxes{
+    margin-right: 1rem;
+    
+}
+.search-button{
+    padding-left:4rem;
+    padding-bottom: 0.4rem;
+    border-radius: 0.3rem;
+    border-color: rgb(4, 16, 53);
+    padding-right:4rem;
+    background-color: rgb(4, 16, 53);
+    color:white;
+    font-size: 1.2rem;
+}
+.course-list{
+    padding-top:3.5rem;
+    color:rgb(4, 16, 53);
+    text-decoration: none;
+}
+.course-list a{
+    text-decoration: none;
+    color:rgb(4, 16, 53);
+    font-size: 1rem;
+    font-weight:900;
+    word-spacing: 0.5rem;
+
+    
+}
+.block1{
+    padding-bottom: 0.5rem;
+    padding-top:3.5rem;
+}
+
+.img-sizes img{
+    
+    width: 13.08rem;
+    height: 10rem;
+    padding-left: 0.5rem;
+
+}
+.fourth-page{
+    background-image: url("../images/chairman-msg-bg3.jpg");
+    height:27rem;
+    color: white;
+    
+}
+.msg-heading{
+    font-size: 2.5rem;
+    font-weight: 900;
+    padding-top: 7rem;
+    padding-left: 24rem;
+}
+.chairman-msg{
+    
+    display: flex;
+    padding-left: 12rem;
+    
+}
+.chairman-msg p{
+    padding-left: 2rem;
+}
+
+.chairman-msg img{
+    width: 9rem;
+    height:9rem;
+    border-radius: 50%;
+    align-self: center;
+    align-content: center;
+    
+}
+
+
+
